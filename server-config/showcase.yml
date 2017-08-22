@@ -1,0 +1,10 @@
+account:
+    store:
+        plan-1:
+           deadline: 7
+        plan-2:
+           deadline: 30
+        plan-3:
+           deadline: 90
+        plan-4:
+           deadline: 180
