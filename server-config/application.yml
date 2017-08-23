@@ -1,9 +1,9 @@
 configserver:
     name: configuration-server
-    status: running
+    status: config-server running !!!  https://github.com/FrancoNeto/kaztor-dev 
 
 jhipster:
     security:
         authentication:
             jwt:
-                secret: teste-in-production
+                secret: my-secret-token-to-change-in-production
