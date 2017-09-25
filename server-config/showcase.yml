@@ -1,6 +1,6 @@
 account:
         plan-1:
-           deadline: 7
+           deadline: 30
         plan-2:
            deadline: 30
         plan-3:
