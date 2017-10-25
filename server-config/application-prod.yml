@@ -6,7 +6,7 @@ jhipster:
     security:
         authentication:
             jwt:
-                secret: 1326cd01c410638616954b2e0e16cfb8cdddda7e
+                secret: 15bc56e9ed2746b7805071831b5097cfd9e6db02
 eureka:
     client:
         service-url:
