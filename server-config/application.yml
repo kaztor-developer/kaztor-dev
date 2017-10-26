@@ -1,0 +1,13 @@
+configserver:
+    name: configuration-server
+    status: config-server running !!!  https://github.com/FrancoNeto/kaztor-dev 
+
+jhipster:
+    security:
+        authentication:
+            jwt:
+                secret: my-secret-key
+eureka:
+    client:
+        service-url:
+            defaultZone: http://admin:${jhipster.registry.password}@jhipster-registry:8761/eureka/
