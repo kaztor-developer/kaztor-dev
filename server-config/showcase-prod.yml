@@ -1,24 +1,4 @@
-configserver:
-    name: configuration-server
-    status: config-server running !!!  https://github.com/FrancoNeto/kaztor-dev 
-
-jhipster:
-    security:
-        authentication:
-            jwt:
-                secret: 15bc56e9ed2746b7805071831b5097cfd9e6db02
-
-# Enable /management/logfile endpoint for all apps
-logging:
-    path: /tmp
-    file: ${spring.application.name}.log
-
-eureka:
-    client:
-        service-url:
-            defaultZone: http://admin:${jhipster.registry.password}@jhipster-registry:8761/eureka/
-            
-account:
+ account:
         plan-1:
            deadline: 30
         plan-2:
