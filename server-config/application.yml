@@ -6,6 +6,6 @@ jhipster:
     security:
         authentication:
             jwt:
-                secret: my-secret-token-to-change-in-production
+                secret: 15bc56e9ed2746b7805071831b5097cfd9e6db02
 logging:
     file: ${java.io.tmpdir}/${spring.application.name}.log
