@@ -8,5 +8,4 @@ jhipster:
             jwt:
                 secret: my-secret-token-to-change-in-production
 logging:
-    path: ${java.io.tmpdir}
-    file: ${spring.application.name}.log
+    file: ${java.io.tmpdir}/${spring.application.name}.log
