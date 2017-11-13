@@ -6,4 +6,4 @@ jhipster:
     security:
         authentication:
             jwt:
-                secret: my-secrete-key
+                secret: my-secret-token-to-change-in-production
