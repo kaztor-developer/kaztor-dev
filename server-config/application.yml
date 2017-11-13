@@ -6,4 +6,4 @@ jhipster:
     security:
         authentication:
             jwt:
-                secret: 15bc56e9ed2746b7805071831b5097cfd9e6db02
+                secret: my-secrete-key
