@@ -10,3 +10,5 @@ account:
         deadline: 90
     plan-4:
         deadline: 180
+    plan:
+        trial: 30
