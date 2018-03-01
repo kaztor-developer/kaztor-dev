@@ -3,14 +3,6 @@ configserver:
     status: config-server running !!!  https://github.com/FrancoNeto/kaztor-dev 
 
 jhipster:
-    cors:
-        allowed-origins: "*"
-        allowed-methods: GET, PUT, POST, DELETE, OPTIONS
-        allowed-headers: "*"
-        exposed-headers: "Authorization, statusCode, statusKey"
-        allow-credentials: true
-        max-age: 1800
-        
     security:
         authentication:
             jwt:
