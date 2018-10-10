@@ -1,13 +1,13 @@
 configserver:
     name: configuration-server
-    status: config-server running !!!  https://github.com/FrancoNeto/kaztor-dev 
+    status: config-server running !!!  https://github.com/kaztor-dirkoo/kaztor-dev
 
 jhipster:
     security:
         authentication:
             jwt:
                 secret: 15bc56e9ed2746b7805071831b5097cfd9e6db02
-
+https://github.com/kaztor-dirkoo/kaztor-dev
 # Enable /management/logfile endpoint for all apps
 logging:
     file: ${java.io.tmpdir}/${spring.application.name}.log
