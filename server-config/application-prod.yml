@@ -1,6 +1,6 @@
 configserver:
     name: configuration-server
-    status: config-server running !!!  https://github.com/kaztor-dirkoo/kaztor-dev
+    status: config-server running !!!  https://github.com/kaztor-developer/kaztor-dev
 
 jhipster:
     security:
