@@ -1,6 +1,6 @@
 configserver:
     name: configuration-server
-    status: config-server running !!!  https://github.com/FrancoNeto/kaztor-dev 
+    status: config-server running !!!  https://github.com/kaztor-dirkoo/kaztor-dev
 
 jhipster:
     security:
@@ -14,4 +14,4 @@ logging:
 eureka:
     client:
         service-url:
-            defaultZone: http://admin:${jhipster.registry.password}@localhost:8761/eureka/
+            defaultZone: http://admin:${jhipster.registry.password}@jhipster-registry:8761/eureka/
